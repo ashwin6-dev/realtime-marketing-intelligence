@@ -1,0 +1,26 @@
+{
+  "name": "realtime-marketing-intelligence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwin6-dev/realtime-marketing-intelligence.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ashwin6-dev/realtime-marketing-intelligence/issues"
+  },
+  "homepage": "https://github.com/ashwin6-dev/realtime-marketing-intelligence#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
