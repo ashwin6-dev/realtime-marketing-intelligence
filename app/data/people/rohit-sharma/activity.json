@@ -1,0 +1,146 @@
+[
+  {
+    "content": "Post-workout treat: McDonald's Grilled Chicken Wrap 🏋️‍♂️🥙. Hits the spot every time!",
+    "likes": 210,
+    "date": "2025-07-03T18:20:00Z",
+    "author": {
+      "handle": "rohit_sharma",
+      "age": 36,
+      "country": "India",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Healthy choice! Love that wrap too.",
+        "likes": 5,
+        "date": "2025-07-03T18:45:00Z",
+        "author": {
+          "handle": "fit_fanatic",
+          "age": 29,
+          "country": "India",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Treated the family to McDonald's this weekend 🍔🍟. Kids love the Happy Meals!",
+    "likes": 340,
+    "date": "2025-07-05T13:10:00Z",
+    "author": {
+      "handle": "rohit_sharma",
+      "age": 36,
+      "country": "India",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Classic weekend move 😄",
+        "likes": 8,
+        "date": "2025-07-05T13:40:00Z",
+        "author": {
+          "handle": "family_fan",
+          "age": 32,
+          "country": "India",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Late night cravings sorted thanks to McD’s McSpicy Paneer 🔥🧀",
+    "likes": 180,
+    "date": "2025-07-07T23:50:00Z",
+    "author": {
+      "handle": "rohit_sharma",
+      "age": 36,
+      "country": "India",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Paneer is undefeated at night!",
+        "likes": 3,
+        "date": "2025-07-08T00:10:00Z",
+        "author": {
+          "handle": "midnight_snacker",
+          "age": 27,
+          "country": "India",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Big fan of McDonald's coffee ☕️. Underrated part of the menu!",
+    "likes": 120,
+    "date": "2025-07-09T09:30:00Z",
+    "author": {
+      "handle": "rohit_sharma",
+      "age": 36,
+      "country": "India",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "So true! Surprisingly good brew.",
+        "likes": 2,
+        "date": "2025-07-09T09:55:00Z",
+        "author": {
+          "handle": "coffee_critiq",
+          "age": 31,
+          "country": "India",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Tried the new McAloo Tikki burger today 🍔🌱. Simple but so good!",
+    "likes": 250,
+    "date": "2025-07-11T14:00:00Z",
+    "author": {
+      "handle": "rohit_sharma",
+      "age": 36,
+      "country": "India",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "My favorite too! Budget-friendly & tasty.",
+        "likes": 4,
+        "date": "2025-07-11T14:25:00Z",
+        "author": {
+          "handle": "budget_bites",
+          "age": 25,
+          "country": "India",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Spicy Chicken Nuggets from McDonald’s are 🔥. Perfect during match nights!",
+    "likes": 300,
+    "date": "2025-07-12T20:45:00Z",
+    "author": {
+      "handle": "rohit_sharma",
+      "age": 36,
+      "country": "India",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Best match snack for sure!",
+        "likes": 6,
+        "date": "2025-07-12T21:05:00Z",
+        "author": {
+          "handle": "sports_snacker",
+          "age": 28,
+          "country": "India",
+          "gender": "male"
+        }
+      }
+    ]
+  }
+]

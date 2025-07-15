@@ -20,15 +20,18 @@
   },
   "homepage": "https://github.com/ashwin6-dev/realtime-marketing-intelligence#readme",
   "devDependencies": {
+    "@types/dotenv": "^6.1.1",
     "@types/node": "^24.0.14",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@google/genai": "^1.9.0",
     "@huggingface/transformers": "^3.6.3",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
     "express": "^5.1.0"
   }
 }

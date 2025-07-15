@@ -9,81 +9,98 @@ interface AnalysedSocialPost extends AnalysedSocial {
 }
 
 export class SentimentInsightService {
-    getAgeInsights(post: AnalysedSocialPost) {
-        const ageGroups: { [group: string]: number[] } = {
-            '13-17': [],
-            '18-24': [],
-            '25-34': [],
-            '35-44': [],
-            '45-54': [],
-            '55-64': [],
-            '65+': []
+    private computeGroupedAverages<T>(
+        post: AnalysedSocialPost,
+        getKey: (author: { age: number; gender: string }) => T
+    ): Record<string, number> {
+        const groups: Record<string, number[]> = {};
+
+        const addToGroup = (author: { age: number; gender: string }, sentiment: number) => {
+            const key = String(getKey(author));
+            if (!groups[key]) groups[key] = [];
+            groups[key].push(sentiment);
         };
 
-        const addSentimentToGroup = (age: number, sentiment: number) => {
-            if (age >= 13 && age <= 17) ageGroups['13-17'].push(sentiment);
-            else if (age >= 18 && age <= 24) ageGroups['18-24'].push(sentiment);
-            else if (age >= 25 && age <= 34) ageGroups['25-34'].push(sentiment);
-            else if (age >= 35 && age <= 44) ageGroups['35-44'].push(sentiment);
-            else if (age >= 45 && age <= 54) ageGroups['45-54'].push(sentiment);
-            else if (age >= 55 && age <= 64) ageGroups['55-64'].push(sentiment);
-            else if (age >= 65) ageGroups['65+'].push(sentiment);
-        };
-
-        addSentimentToGroup(post.author.age, post.sentiment);
-
+        addToGroup(post.author, post.sentiment);
         for (const comment of post.comments) {
-            addSentimentToGroup(comment.author.age, comment.sentiment);
+            addToGroup(comment.author, comment.sentiment);
         }
 
-        const averages: { [group: string]: number } = {};
-        for (const group in ageGroups) {
-            const sentiments = ageGroups[group];
-            if (sentiments.length > 0) {
-                const sum = sentiments.reduce((acc, val) => acc + val, 0);
-                averages[group] = sum / sentiments.length;
-            } else {
-                averages[group] = 0;
-            }
+        const averages: Record<string, number> = {};
+        for (const key in groups) {
+            const sentiments = groups[key];
+            averages[key] = sentiments.reduce((a, b) => a + b, 0) / sentiments.length;
         }
 
         return averages;
+    }
+
+    getAgeInsights(post: AnalysedSocialPost) {
+        return this.computeGroupedAverages(post, author => {
+            const age = author.age;
+            if (age >= 13 && age <= 17) return '13-17';
+            if (age >= 18 && age <= 24) return '18-24';
+            if (age >= 25 && age <= 34) return '25-34';
+            if (age >= 35 && age <= 44) return '35-44';
+            if (age >= 45 && age <= 54) return '45-54';
+            if (age >= 55 && age <= 64) return '55-64';
+            return '65+';
+        });
     }
 
     getGenderInsights(post: AnalysedSocialPost) {
-        const genders: { [gender: string]: number[] } = {};
-
-        const addSentimentToGender = (gender: string, sentiment: number) => {
-            if (!genders[gender]) {
-                genders[gender] = [];
-            }
-            genders[gender].push(sentiment);
-        };
-
-        addSentimentToGender(post.author.gender, post.sentiment);
-
-        for (const comment of post.comments) {
-            addSentimentToGender(comment.author.gender, comment.sentiment);
-        }
-
-        const averages: { [gender: string]: number } = {};
-        for (const gender in genders) {
-            const sentiments = genders[gender];
-            if (sentiments.length > 0) {
-                const sum = sentiments.reduce((acc, val) => acc + val, 0);
-                averages[gender] = sum / sentiments.length;
-            } else {
-                averages[gender] = 0;
-            }
-        }
-
-        return averages;
+        return this.computeGroupedAverages(post, author => author.gender);
     }
 
     getSentimentInsight(posts: AnalysedSocialPost[]) {
-        return posts.map(post => ({
-            byAge: this.getAgeInsights(post),
-            byGender: this.getGenderInsights(post)
-        }));
+        const allAgeGroups: Record<string, number[]> = {};
+        const allGenderGroups: Record<string, number[]> = {};
+
+        const addToGroup = (author: { age: number; gender: string }, sentiment: number) => {
+            // Age
+            const age = author.age;
+            let ageGroup = '';
+            if (age >= 13 && age <= 17) ageGroup = '13-17';
+            else if (age >= 18 && age <= 24) ageGroup = '18-24';
+            else if (age >= 25 && age <= 34) ageGroup = '25-34';
+            else if (age >= 35 && age <= 44) ageGroup = '35-44';
+            else if (age >= 45 && age <= 54) ageGroup = '45-54';
+            else if (age >= 55 && age <= 64) ageGroup = '55-64';
+            else ageGroup = '65+';
+
+            if (!allAgeGroups[ageGroup]) allAgeGroups[ageGroup] = [];
+            allAgeGroups[ageGroup].push(sentiment);
+
+            // Gender
+            const gender = author.gender;
+            if (!allGenderGroups[gender]) allGenderGroups[gender] = [];
+            allGenderGroups[gender].push(sentiment);
+        };
+
+        for (const post of posts) {
+            addToGroup(post.author, post.sentiment);
+            for (const comment of post.comments) {
+                addToGroup(comment.author, comment.sentiment);
+            }
+        }
+
+        // Compute averages
+        const average = (arr: number[]) =>
+            arr.reduce((a, b) => a + b, 0) / arr.length;
+
+        const byAge: Record<string, number> = {};
+        for (const group in allAgeGroups) {
+            byAge[group] = average(allAgeGroups[group]);
+        }
+
+        const byGender: Record<string, number> = {};
+        for (const group in allGenderGroups) {
+            byGender[group] = average(allGenderGroups[group]);
+        }
+
+        return {
+            byAge,
+            byGender
+        };
     }
 }

@@ -1,7 +1,6 @@
 import { pipeline } from '@huggingface/transformers';
 import { COMPETITOR_SOCIAL_POSTS, DATA_PATH, DIRECT_SOCIAL_POSTS, OVERALL } from '../constants';
 import { loadJsonFile } from '../utils/json';
-import path from 'path';
 import { Social, SocialMediaPost } from '../../schemas/social';
 import { SentimentInsightService } from './sentimentInsightService';
 
@@ -72,14 +71,12 @@ export class SentimentService {
         if (!sentimentAnalysis) return {};
 
         let { directSentiment, competitorSentiment } = sentimentAnalysis;
-        directSentiment = await this.insightService.getSentimentInsight(directSentiment);
-        competitorSentiment = await this.insightService.getSentimentInsight(competitorSentiment);
 
         return {
             sentimentAnalysis,
             insights: {
-                directSentiment,
-                competitorSentiment
+                directSentiment: await this.insightService.getSentimentInsight(directSentiment),
+                competitorSentiment: await this.insightService.getSentimentInsight(competitorSentiment)
             }
         }
     }

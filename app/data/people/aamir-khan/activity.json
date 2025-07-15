@@ -1,0 +1,146 @@
+[
+  {
+    "content": "Attended a panel discussion on sustainable food production and the urgent need to reduce fast food consumption 🌱.",
+    "likes": 280,
+    "date": "2025-07-02T17:30:00Z",
+    "author": {
+      "handle": "aamir_khan",
+      "age": 60,
+      "country": "India",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Important topic, thanks for using your voice 🙏",
+        "likes": 7,
+        "date": "2025-07-02T17:50:00Z",
+        "author": {
+          "handle": "green_gita",
+          "age": 33,
+          "country": "India",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Finished reading a powerful report on how ultra-processed foods impact child health. Eye-opening! 📚",
+    "likes": 190,
+    "date": "2025-07-04T10:15:00Z",
+    "author": {
+      "handle": "aamir_khan",
+      "age": 60,
+      "country": "India",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Wish more celebs spoke about this.",
+        "likes": 3,
+        "date": "2025-07-04T10:40:00Z",
+        "author": {
+          "handle": "truth_seeker",
+          "age": 28,
+          "country": "India",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Long run this morning along Mumbai’s coastline 🏃‍♂️🌊. Clear mind, healthy body.",
+    "likes": 150,
+    "date": "2025-07-06T06:50:00Z",
+    "author": {
+      "handle": "aamir_khan",
+      "age": 60,
+      "country": "India",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Discipline! Inspiring as always.",
+        "likes": 2,
+        "date": "2025-07-06T07:05:00Z",
+        "author": {
+          "handle": "morning_mohit",
+          "age": 31,
+          "country": "India",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Documentary shoot wrapped today. Focused on rural nutrition and why local grains matter more than imported processed foods. 🎥🌾",
+    "likes": 230,
+    "date": "2025-07-08T15:40:00Z",
+    "author": {
+      "handle": "aamir_khan",
+      "age": 60,
+      "country": "India",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "This is real impact! Can’t wait to watch.",
+        "likes": 4,
+        "date": "2025-07-08T16:05:00Z",
+        "author": {
+          "handle": "docu_dev",
+          "age": 27,
+          "country": "India",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Visited an organic farm today. Incredible to see how food can be grown without chemicals and still feed communities sustainably 🌿.",
+    "likes": 175,
+    "date": "2025-07-10T11:20:00Z",
+    "author": {
+      "handle": "aamir_khan",
+      "age": 60,
+      "country": "India",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Nature always provides.",
+        "likes": 1,
+        "date": "2025-07-10T11:45:00Z",
+        "author": {
+          "handle": "earth_ekta",
+          "age": 29,
+          "country": "India",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Rewatched 'Food, Inc.' last night. Still shocked at what goes into mass-produced food 🧐.",
+    "likes": 140,
+    "date": "2025-07-12T21:00:00Z",
+    "author": {
+      "handle": "aamir_khan",
+      "age": 60,
+      "country": "India",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Powerful documentary! Changed my habits too.",
+        "likes": 2,
+        "date": "2025-07-12T21:25:00Z",
+        "author": {
+          "handle": "docu_divya",
+          "age": 35,
+          "country": "India",
+          "gender": "female"
+        }
+      }
+    ]
+  }
+]
