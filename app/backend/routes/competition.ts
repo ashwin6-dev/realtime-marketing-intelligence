@@ -7,8 +7,8 @@ const createCompetitorRouter = () => {
     const router = Router();
 
     router.get('/activities', async (req, res) => {
-        const acitivities = loadJsonFile(`${DATA_PATH}/${OVERALL}/${COMPETITOR_ACTIVITY}`);
-        res.send();
+        const activities = loadJsonFile(`${DATA_PATH}/${OVERALL}/${COMPETITOR_ACTIVITY}`);
+        res.send(await summariseCompetitorActivity(activities));
     });
 
     return router;
