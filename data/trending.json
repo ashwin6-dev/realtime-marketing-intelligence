@@ -1,0 +1,107 @@
+[
+  {
+    "content": "🚀 Apple just dropped the Vision Pro 2 and it's INSANE! Mixed reality is here. #AppleEvent",
+    "likes": 12000,
+    "date": "2025-07-14T16:00:00Z",
+    "author": {
+      "name": "Mason",
+      "age": 28,
+      "country": "USA",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Game changer. Can't wait to try it!",
+        "likes": 430,
+        "date": "2025-07-14T16:30:00Z",
+        "author": {
+          "name": "Sophia",
+          "age": 25,
+          "country": "UK",
+          "gender": "female"
+        }
+      },
+      {
+        "content": "Finally feels futuristic.",
+        "likes": 320,
+        "date": "2025-07-14T16:45:00Z",
+        "author": {
+          "name": "Kai",
+          "age": 31,
+          "country": "Canada",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Taylor Swift's surprise double album drop at midnight?! 🎶🩷 #SwiftiesUnite",
+    "likes": 8500,
+    "date": "2025-07-13T23:59:00Z",
+    "author": {
+      "name": "Ella",
+      "age": 24,
+      "country": "USA",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "She never sleeps, and neither will we 😂",
+        "likes": 500,
+        "date": "2025-07-14T00:30:00Z",
+        "author": {
+          "name": "Ava",
+          "age": 21,
+          "country": "Australia",
+          "gender": "female"
+        }
+      },
+      {
+        "content": "Streaming it on repeat already!",
+        "likes": 410,
+        "date": "2025-07-14T01:00:00Z",
+        "author": {
+          "name": "Leo",
+          "age": 27,
+          "country": "France",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "OpenAI just announced GPT-5. It can generate entire games and apps from a single prompt. 🤯🤖",
+    "likes": 9500,
+    "date": "2025-07-12T14:00:00Z",
+    "author": {
+      "name": "Noah",
+      "age": 32,
+      "country": "Germany",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "AI is moving too fast, but I love it!",
+        "likes": 460,
+        "date": "2025-07-12T14:20:00Z",
+        "author": {
+          "name": "Mila",
+          "age": 29,
+          "country": "Netherlands",
+          "gender": "female"
+        }
+      },
+      {
+        "content": "Wonder what developers will do now...",
+        "likes": 300,
+        "date": "2025-07-12T14:40:00Z",
+        "author": {
+          "name": "Oliver",
+          "age": 33,
+          "country": "USA",
+          "gender": "male"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "searchTerm": "best chicken burger",
+    "searchRank": 1,
+    "url": "https://www.kfc.com/menu/original-chicken-burger"
+  },
+  {
+    "searchTerm": "best chicken burger",
+    "searchRank": 2,
+    "url": "https://www.mcdonalds.com/menu/mcchicken"
+  },
+  {
+    "searchTerm": "best chicken burger",
+    "searchRank": 3,
+    "url": "https://www.burgerking.com/menu/chicken-sandwich"
+  },
+  {
+    "searchTerm": "best chicken burger",
+    "searchRank": 4,
+    "url": "https://fastfoodcritic.com/best-chicken-burgers-2025"
+  },
+  {
+    "searchTerm": "cheap lunch deals",
+    "searchRank": 1,
+    "url": "https://www.burgerking.com/offers/lunch-deals"
+  },
+  {
+    "searchTerm": "cheap lunch deals",
+    "searchRank": 2,
+    "url": "https://www.mcdonalds.com/offers/value-meals"
+  },
+  {
+    "searchTerm": "cheap lunch deals",
+    "searchRank": 3,
+    "url": "https://dealhunters.com/cheap-fast-food-lunches"
+  },
+  {
+    "searchTerm": "cheap lunch deals",
+    "searchRank": 4,
+    "url": "https://www.kfc.com/menu/value-lunch"
+  },
+  {
+    "searchTerm": "fast food dessert menu",
+    "searchRank": 1,
+    "url": "https://www.mcdonalds.com/menu/desserts"
+  },
+  {
+    "searchTerm": "fast food dessert menu",
+    "searchRank": 2,
+    "url": "https://www.burgerking.com/menu/desserts"
+  },
+  {
+    "searchTerm": "fast food dessert menu",
+    "searchRank": 3,
+    "url": "https://sweettoothblog.com/top-fast-food-desserts"
+  },
+  {
+    "searchTerm": "fast food dessert menu",
+    "searchRank": 4,
+    "url": "https://www.kfc.com/menu/desserts"
+  },
+  {
+    "searchTerm": "new vegan fast food options",
+    "searchRank": 1,
+    "url": "https://www.kfc.com/menu/plant-based"
+  },
+  {
+    "searchTerm": "new vegan fast food options",
+    "searchRank": 2,
+    "url": "https://vegandaily.com/new-vegan-fast-food-2025"
+  },
+  {
+    "searchTerm": "new vegan fast food options",
+    "searchRank": 3,
+    "url": "https://www.burgerking.com/menu/plant-based"
+  },
+  {
+    "searchTerm": "new vegan fast food options",
+    "searchRank": 4,
+    "url": "https://www.mcdonalds.com/menu/vegan-options"
+  },
+  {
+    "searchTerm": "best pepperoni pizza",
+    "searchRank": 1,
+    "url": "https://www.dominos.com/menu/pepperoni-overload"
+  },
+  {
+    "searchTerm": "best pepperoni pizza",
+    "searchRank": 2,
+    "url": "https://pizzaloversblog.com/best-pepperoni-pizzas"
+  },
+  {
+    "searchTerm": "best pepperoni pizza",
+    "searchRank": 3,
+    "url": "https://www.papajohns.com/menu/pepperoni-pizza"
+  },
+  {
+    "searchTerm": "best pepperoni pizza",
+    "searchRank": 4,
+    "url": "https://www.pizzahut.com/menu/pepperoni-pizza"
+  },
+  {
+    "searchTerm": "late night fast food",
+    "searchRank": 1,
+    "url": "https://www.mcdonalds.com/locations/24hr"
+  },
+  {
+    "searchTerm": "late night fast food",
+    "searchRank": 2,
+    "url": "https://www.dominos.com/locations/late-night"
+  },
+  {
+    "searchTerm": "late night fast food",
+    "searchRank": 3,
+    "url": "https://www.tacobell.com/locations/late-night"
+  },
+  {
+    "searchTerm": "late night fast food",
+    "searchRank": 4,
+    "url": "https://fastfoodmap.com/24hr-restaurants"
+  },
+  {
+    "searchTerm": "family meal deals fast food",
+    "searchRank": 1,
+    "url": "https://www.kfc.com/menu/family-meals"
+  },
+  {
+    "searchTerm": "family meal deals fast food",
+    "searchRank": 2,
+    "url": "https://www.mcdonalds.com/menu/family-bundles"
+  },
+  {
+    "searchTerm": "family meal deals fast food",
+    "searchRank": 3,
+    "url": "https://www.pizzahut.com/menu/family-meals"
+  },
+  {
+    "searchTerm": "family meal deals fast food",
+    "searchRank": 4,
+    "url": "https://dealhunters.com/best-family-meals-fast-food"
+  },
+  {
+    "searchTerm": "cheap fast food desserts",
+    "searchRank": 1,
+    "url": "https://www.mcdonalds.com/menu/desserts"
+  },
+  {
+    "searchTerm": "cheap fast food desserts",
+    "searchRank": 2,
+    "url": "https://www.burgerking.com/menu/desserts"
+  },
+  {
+    "searchTerm": "cheap fast food desserts",
+    "searchRank": 3,
+    "url": "https://sweettoothblog.com/affordable-fast-food-desserts"
+  },
+  {
+    "searchTerm": "cheap fast food desserts",
+    "searchRank": 4,
+    "url": "https://www.kfc.com/menu/desserts"
+  },
+  {
+    "searchTerm": "best fast food breakfast",
+    "searchRank": 1,
+    "url": "https://www.mcdonalds.com/menu/breakfast"
+  },
+  {
+    "searchTerm": "best fast food breakfast",
+    "searchRank": 2,
+    "url": "https://www.burgerking.com/menu/breakfast"
+  },
+  {
+    "searchTerm": "best fast food breakfast",
+    "searchRank": 3,
+    "url": "https://breakfastfans.com/top-fast-food-breakfast-2025"
+  },
+  {
+    "searchTerm": "best fast food breakfast",
+    "searchRank": 4,
+    "url": "https://www.subway.com/menu/breakfast"
+  }
+]

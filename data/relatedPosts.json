@@ -1,0 +1,262 @@
+[
+  {
+    "content": "Tried the new spicy chicken burger at Burger King 🔥🍔 Honestly, too greasy and not that spicy.",
+    "likes": 45,
+    "date": "2025-01-12T10:15:00Z",
+    "author": {
+      "name": "John",
+      "age": 29,
+      "country": "USA",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Yeah, same! Disappointed.",
+        "likes": 3,
+        "date": "2025-01-12T11:00:00Z",
+        "author": {
+          "name": "Liam",
+          "age": 22,
+          "country": "UK",
+          "gender": "male"
+        }
+      },
+      {
+        "content": "Thought it would be spicier too.",
+        "likes": 2,
+        "date": "2025-01-12T11:20:00Z",
+        "author": {
+          "name": "Sophia",
+          "age": 30,
+          "country": "Canada",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Burger King's spicy chicken still not hitting the spot 🌶️🍔. Feels bland this year.",
+    "likes": 38,
+    "date": "2025-01-13T09:45:00Z",
+    "author": {
+      "name": "Daniel",
+      "age": 26,
+      "country": "Australia",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Exactly! They could have gone hotter.",
+        "likes": 4,
+        "date": "2025-01-13T10:10:00Z",
+        "author": {
+          "name": "Mia",
+          "age": 23,
+          "country": "New Zealand",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Dominos launched a cheesy crust pizza 🧀🍕 but honestly feels overpriced.",
+    "likes": 60,
+    "date": "2025-02-05T15:30:00Z",
+    "author": {
+      "name": "Maya",
+      "age": 27,
+      "country": "Canada",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Completely agree, not worth the extra dollars.",
+        "likes": 4,
+        "date": "2025-02-05T16:00:00Z",
+        "author": {
+          "name": "Noah",
+          "age": 27,
+          "country": "Australia",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "McDonald's breakfast wraps are back! 🥓🌯 Missed them so much, finally!!",
+    "likes": 210,
+    "date": "2025-03-01T08:10:00Z",
+    "author": {
+      "name": "Michael",
+      "age": 35,
+      "country": "UK",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Best news ever! Love those wraps.",
+        "likes": 7,
+        "date": "2025-03-01T08:30:00Z",
+        "author": {
+          "name": "James",
+          "age": 35,
+          "country": "UK",
+          "gender": "male"
+        }
+      },
+      {
+        "content": "Yay! Had one this morning 😍",
+        "likes": 5,
+        "date": "2025-03-01T09:00:00Z",
+        "author": {
+          "name": "Emma",
+          "age": 25,
+          "country": "USA",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "McDonald's wraps are back and still taste amazing 🙌🌯",
+    "likes": 190,
+    "date": "2025-03-01T09:45:00Z",
+    "author": {
+      "name": "Oliver",
+      "age": 28,
+      "country": "Ireland",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Classic McD’s move, love it!",
+        "likes": 6,
+        "date": "2025-03-01T10:00:00Z",
+        "author": {
+          "name": "Lily",
+          "age": 24,
+          "country": "Ireland",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "KFC’s new plant-based bucket 🪴🍗. Tasted weird, texture was off.",
+    "likes": 50,
+    "date": "2025-04-12T13:15:00Z",
+    "author": {
+      "name": "Laura",
+      "age": 24,
+      "country": "Germany",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Yeah, didn't like it either.",
+        "likes": 3,
+        "date": "2025-04-12T14:00:00Z",
+        "author": {
+          "name": "William",
+          "age": 29,
+          "country": "France",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Dominos’ pepperoni overload pizza 🍕❤️ finally something worth the price!",
+    "likes": 130,
+    "date": "2025-04-25T18:20:00Z",
+    "author": {
+      "name": "Isabella",
+      "age": 23,
+      "country": "Italy",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "So good! My new favorite.",
+        "likes": 6,
+        "date": "2025-04-25T19:00:00Z",
+        "author": {
+          "name": "Amelia",
+          "age": 24,
+          "country": "Italy",
+          "gender": "female"
+        }
+      },
+      {
+        "content": "Loved every bite!",
+        "likes": 3,
+        "date": "2025-04-25T19:30:00Z",
+        "author": {
+          "name": "Lucas",
+          "age": 31,
+          "country": "USA",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Burger King’s 2-for-1 Whopper deal 🍔🍔 is a solid offer!",
+    "likes": 175,
+    "date": "2025-05-10T12:00:00Z",
+    "author": {
+      "name": "Natalie",
+      "age": 30,
+      "country": "USA",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Best deal! Got it yesterday.",
+        "likes": 5,
+        "date": "2025-05-10T12:30:00Z",
+        "author": {
+          "name": "Grace",
+          "age": 22,
+          "country": "USA",
+          "gender": "female"
+        }
+      },
+      {
+        "content": "Perfect for lunch with a friend!",
+        "likes": 4,
+        "date": "2025-05-10T13:00:00Z",
+        "author": {
+          "name": "Jack",
+          "age": 29,
+          "country": "Canada",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Dominos bringing back chocolate lava cakes 🍫🍰 – overrated imo.",
+    "likes": 65,
+    "date": "2025-06-01T17:40:00Z",
+    "author": {
+      "name": "Sophie",
+      "age": 25,
+      "country": "UK",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Agree, always found them too sweet.",
+        "likes": 3,
+        "date": "2025-06-01T18:00:00Z",
+        "author": {
+          "name": "Henry",
+          "age": 33,
+          "country": "UK",
+          "gender": "male"
+        }
+      }
+    ]
+  }
+]
