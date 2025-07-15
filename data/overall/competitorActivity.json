@@ -1,0 +1,168 @@
+[
+  {
+    "content": "🔥 Introducing our new Hot & Spicy Boneless bucket! Extra crunch, extra kick. Only at KFC for a limited time! 🍗🌶️",
+    "likes": 520,
+    "date": "2025-06-28T10:00:00Z",
+    "author": {
+      "handle": "KFC_Official",
+      "age": 0,
+      "country": "USA",
+      "gender": "brand"
+    },
+    "comments": [
+      {
+        "content": "Need this in Canada ASAP! 🇨🇦",
+        "likes": 6,
+        "date": "2025-06-28T10:15:00Z",
+        "author": {
+          "handle": "spicy_steve",
+          "age": 24,
+          "country": "Canada",
+          "gender": "male"
+        }
+      },
+      {
+        "content": "Tried it yesterday, fire 🔥",
+        "likes": 4,
+        "date": "2025-06-28T10:25:00Z",
+        "author": {
+          "handle": "hot_hannah",
+          "age": 22,
+          "country": "UK",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Say hello to the new Ghost Pepper Nuggets 👻🌶️! Turning up the heat this summer at Burger King 🔥🍔",
+    "likes": 410,
+    "date": "2025-07-01T09:30:00Z",
+    "author": {
+      "handle": "BurgerKing_Official",
+      "age": 0,
+      "country": "USA",
+      "gender": "brand"
+    },
+    "comments": [
+      {
+        "content": "Hope they’re really spicy this time!",
+        "likes": 3,
+        "date": "2025-07-01T09:50:00Z",
+        "author": {
+          "handle": "heat_hunter",
+          "age": 27,
+          "country": "USA",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Spice lovers, rejoice! 🌶️ Our classic spicy chicken sandwich is back nationwide 🐔🔥 Grab yours at Wendy’s today!",
+    "likes": 630,
+    "date": "2025-07-02T11:00:00Z",
+    "author": {
+      "handle": "Wendys_Official",
+      "age": 0,
+      "country": "USA",
+      "gender": "brand"
+    },
+    "comments": [
+      {
+        "content": "About time! ❤️",
+        "likes": 5,
+        "date": "2025-07-02T11:20:00Z",
+        "author": {
+          "handle": "sandwich_sue",
+          "age": 25,
+          "country": "USA",
+          "gender": "female"
+        }
+      },
+      {
+        "content": "Best spicy sandwich out there.",
+        "likes": 4,
+        "date": "2025-07-02T11:40:00Z",
+        "author": {
+          "handle": "crispy_carl",
+          "age": 30,
+          "country": "USA",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "🍦 New summer treat alert! Burger King’s Caramel Sundae is here to sweeten your day ☀️🍯 Available now nationwide.",
+    "likes": 280,
+    "date": "2025-06-20T15:00:00Z",
+    "author": {
+      "handle": "BurgerKing_Official",
+      "age": 0,
+      "country": "USA",
+      "gender": "brand"
+    },
+    "comments": [
+      {
+        "content": "Tried it, super sweet but good!",
+        "likes": 2,
+        "date": "2025-06-20T15:25:00Z",
+        "author": {
+          "handle": "sweet_sam",
+          "age": 29,
+          "country": "USA",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "🥓🍗 Meet the new KFC Smoky BBQ Zinger burger! Smoky, spicy, crispy perfection — only for a limited time!",
+    "likes": 390,
+    "date": "2025-07-03T13:00:00Z",
+    "author": {
+      "handle": "KFC_Official",
+      "age": 0,
+      "country": "UK",
+      "gender": "brand"
+    },
+    "comments": [
+      {
+        "content": "OMG, looks amazing 🔥",
+        "likes": 3,
+        "date": "2025-07-03T13:20:00Z",
+        "author": {
+          "handle": "foodie_fiona",
+          "age": 26,
+          "country": "UK",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Get double the heat! Wendy’s spicy nuggets are now in a share box! 🌶️🍗 Perfect for game night.",
+    "likes": 320,
+    "date": "2025-07-04T16:30:00Z",
+    "author": {
+      "handle": "Wendys_Official",
+      "age": 0,
+      "country": "USA",
+      "gender": "brand"
+    },
+    "comments": [
+      {
+        "content": "Game changer! ❤️",
+        "likes": 2,
+        "date": "2025-07-04T16:50:00Z",
+        "author": {
+          "handle": "game_gary",
+          "age": 28,
+          "country": "USA",
+          "gender": "male"
+        }
+      }
+    ]
+  }
+]

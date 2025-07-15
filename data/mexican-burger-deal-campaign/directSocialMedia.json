@@ -1,0 +1,192 @@
+[
+  {
+    "content": "Tried the new Mexican Burger Meal 🌶️🍔 from McDonald's today — honestly loved the spicy kick!",
+    "likes": 120,
+    "date": "2025-07-05T14:23:00Z",
+    "author": {
+      "handle": "foodie_emily",
+      "age": 27,
+      "country": "USA",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Same! It actually tastes fresh.",
+        "likes": 8,
+        "date": "2025-07-05T16:00:00Z",
+        "author": {
+          "handle": "spicy_jake",
+          "age": 31,
+          "country": "USA",
+          "gender": "male"
+        }
+      },
+      {
+        "content": "Best new item this summer.",
+        "likes": 5,
+        "date": "2025-07-05T17:12:00Z",
+        "author": {
+          "handle": "texas_foodlover",
+          "age": 24,
+          "country": "USA",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Not a fan of the Mexican Burger Meal at McDonald's. Too salty for me.",
+    "likes": 45,
+    "date": "2025-07-07T11:45:00Z",
+    "author": {
+      "handle": "critical_carl",
+      "age": 29,
+      "country": "Canada",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Agree, felt heavy too.",
+        "likes": 2,
+        "date": "2025-07-07T12:30:00Z",
+        "author": {
+          "handle": "sarah_snacks",
+          "age": 22,
+          "country": "Canada",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "McDonald's Mexican Burger Meal is surprisingly good for the price! 🌮🍔",
+    "likes": 95,
+    "date": "2025-07-09T09:10:00Z",
+    "author": {
+      "handle": "budget_eater",
+      "age": 33,
+      "country": "UK",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Tasty and filling, right?",
+        "likes": 3,
+        "date": "2025-07-09T10:20:00Z",
+        "author": {
+          "handle": "brit_bites",
+          "age": 28,
+          "country": "UK",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "The Mexican Burger Meal isn't that spicy, but the sauce is great 🔥",
+    "likes": 60,
+    "date": "2025-07-10T19:40:00Z",
+    "author": {
+      "handle": "mike_meals",
+      "age": 26,
+      "country": "Australia",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Exactly! Could use more heat tho.",
+        "likes": 2,
+        "date": "2025-07-10T20:15:00Z",
+        "author": {
+          "handle": "aussie_eats",
+          "age": 23,
+          "country": "Australia",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Loved the Mexican Burger Meal from McDonald's — crispy fries and burger combo is 🔥",
+    "likes": 150,
+    "date": "2025-07-11T13:05:00Z",
+    "author": {
+      "handle": "food_adventures",
+      "age": 25,
+      "country": "Spain",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Tried it yesterday, so good!",
+        "likes": 4,
+        "date": "2025-07-11T14:00:00Z",
+        "author": {
+          "handle": "madrid_munchies",
+          "age": 21,
+          "country": "Spain",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Meh, Mexican Burger Meal was average. Expected more flavor.",
+    "likes": 35,
+    "date": "2025-07-12T15:30:00Z",
+    "author": {
+      "handle": "plain_paul",
+      "age": 30,
+      "country": "UK",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Felt the same, kinda bland.",
+        "likes": 1,
+        "date": "2025-07-12T16:10:00Z",
+        "author": {
+          "handle": "london_luncher",
+          "age": 27,
+          "country": "UK",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Anyone else obsessed with the Mexican Burger Meal? 😍",
+    "likes": 210,
+    "date": "2025-07-13T17:50:00Z",
+    "author": {
+      "handle": "burger_queen",
+      "age": 24,
+      "country": "USA",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Yes!! Had it twice already.",
+        "likes": 6,
+        "date": "2025-07-13T18:30:00Z",
+        "author": {
+          "handle": "nyc_food",
+          "age": 26,
+          "country": "USA",
+          "gender": "female"
+        }
+      },
+      {
+        "content": "My new guilty pleasure 😂",
+        "likes": 3,
+        "date": "2025-07-13T19:10:00Z",
+        "author": {
+          "handle": "quickbitejoe",
+          "age": 29,
+          "country": "USA",
+          "gender": "male"
+        }
+      }
+    ]
+  }
+]

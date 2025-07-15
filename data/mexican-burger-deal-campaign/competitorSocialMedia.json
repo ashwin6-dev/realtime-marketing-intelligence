@@ -1,0 +1,194 @@
+[
+  {
+    "content": "Tried Burger King's new Tex-Mex Whopper 🌶️🍔 — honestly better than I expected, smoky flavor is on point!",
+    "likes": 135,
+    "date": "2025-07-06T13:40:00Z",
+    "author": {
+      "handle": "grill_gary",
+      "age": 28,
+      "country": "USA",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Loved the sauce! Totally worth it.",
+        "likes": 4,
+        "date": "2025-07-06T14:10:00Z",
+        "author": {
+          "handle": "tasty_tina",
+          "age": 25,
+          "country": "USA",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Dominos' new Spicy Chicken Melt 🧀🌶️ is delicious but pretty greasy.",
+    "likes": 75,
+    "date": "2025-07-08T12:20:00Z",
+    "author": {
+      "handle": "slice_sam",
+      "age": 31,
+      "country": "UK",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Agreed, the taste is great though!",
+        "likes": 3,
+        "date": "2025-07-08T12:50:00Z",
+        "author": {
+          "handle": "pizza_polly",
+          "age": 26,
+          "country": "UK",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "KFC's new Jalapeño Crunch Burger 🌶️🍗 is a must-try! Loved the crispy layer.",
+    "likes": 190,
+    "date": "2025-07-10T17:00:00Z",
+    "author": {
+      "handle": "crunchy_carl",
+      "age": 27,
+      "country": "Australia",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Seriously addictive!",
+        "likes": 5,
+        "date": "2025-07-10T17:30:00Z",
+        "author": {
+          "handle": "fried_fiona",
+          "age": 23,
+          "country": "Australia",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Taco Bell's new Spicy Nacho Crunch Wrap 🌮🔥 is overrated. Too messy to eat.",
+    "likes": 55,
+    "date": "2025-07-11T15:45:00Z",
+    "author": {
+      "handle": "messy_matt",
+      "age": 30,
+      "country": "USA",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Same! Fell apart in the wrapper.",
+        "likes": 2,
+        "date": "2025-07-11T16:10:00Z",
+        "author": {
+          "handle": "burrito_bella",
+          "age": 24,
+          "country": "USA",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Burger King's Tex-Mex Whopper is kinda bland tbh, expected more spice.",
+    "likes": 40,
+    "date": "2025-07-07T14:15:00Z",
+    "author": {
+      "handle": "lukewarm_lucy",
+      "age": 29,
+      "country": "Canada",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "True, the marketing was more exciting than the taste.",
+        "likes": 1,
+        "date": "2025-07-07T14:50:00Z",
+        "author": {
+          "handle": "canada_chris",
+          "age": 27,
+          "country": "Canada",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Dominos Spicy Chicken Melt 🔥🍕 was so cheesy! Loved it, would order again.",
+    "likes": 115,
+    "date": "2025-07-09T13:25:00Z",
+    "author": {
+      "handle": "cheesy_chelsea",
+      "age": 22,
+      "country": "UK",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Same, so satisfying after work!",
+        "likes": 3,
+        "date": "2025-07-09T13:50:00Z",
+        "author": {
+          "handle": "afterhours_andy",
+          "age": 25,
+          "country": "UK",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "KFC's Jalapeño Crunch Burger 🌶️ is spicy but a bit dry imo.",
+    "likes": 58,
+    "date": "2025-07-12T12:00:00Z",
+    "author": {
+      "handle": "dry_daisy",
+      "age": 24,
+      "country": "Germany",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Needed extra sauce for sure.",
+        "likes": 2,
+        "date": "2025-07-12T12:30:00Z",
+        "author": {
+          "handle": "berlin_bites",
+          "age": 28,
+          "country": "Germany",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Taco Bell’s Spicy Nacho Crunch Wrap 🌮🔥 is my go-to lunch now!",
+    "likes": 140,
+    "date": "2025-07-13T14:05:00Z",
+    "author": {
+      "handle": "crunchy_carmen",
+      "age": 26,
+      "country": "USA",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Love it! Super filling too.",
+        "likes": 4,
+        "date": "2025-07-13T14:30:00Z",
+        "author": {
+          "handle": "fastfood_frank",
+          "age": 32,
+          "country": "USA",
+          "gender": "male"
+        }
+      }
+    ]
+  }
+]

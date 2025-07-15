@@ -1,0 +1,218 @@
+[
+  {
+    "content": "Finally tried McDonald's new Spicy Chicken Nuggets 🔥🍗. Honestly loved them! Perfect amount of kick.",
+    "likes": 150,
+    "date": "2025-07-02T13:45:00Z",
+    "author": {
+      "handle": "foodie_faith",
+      "age": 24,
+      "country": "USA",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Yess! Best thing they’ve added in ages.",
+        "likes": 6,
+        "date": "2025-07-02T14:10:00Z",
+        "author": {
+          "handle": "snack_sean",
+          "age": 28,
+          "country": "USA",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "McDonald's spicy nuggets aren't really spicy... kinda disappointed tbh 😕",
+    "likes": 55,
+    "date": "2025-07-03T16:20:00Z",
+    "author": {
+      "handle": "lukewarm_lori",
+      "age": 30,
+      "country": "Canada",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Same! Expected way more heat.",
+        "likes": 2,
+        "date": "2025-07-03T16:50:00Z",
+        "author": {
+          "handle": "mild_mark",
+          "age": 26,
+          "country": "Canada",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Just had the Spicy Chicken Nuggets from McD's 🌶️🍗 — crispy and addictive!",
+    "likes": 120,
+    "date": "2025-07-04T11:05:00Z",
+    "author": {
+      "handle": "spice_steve",
+      "age": 27,
+      "country": "UK",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Totally agree! Ate a whole box 😅",
+        "likes": 3,
+        "date": "2025-07-04T11:35:00Z",
+        "author": {
+          "handle": "crunchy_claire",
+          "age": 22,
+          "country": "UK",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Tried the new spicy nuggets from McDonald’s today — meh, they’re okay but nothing special.",
+    "likes": 40,
+    "date": "2025-07-05T15:00:00Z",
+    "author": {
+      "handle": "average_andy",
+      "age": 31,
+      "country": "Australia",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Yeah, wouldn’t buy again.",
+        "likes": 1,
+        "date": "2025-07-05T15:25:00Z",
+        "author": {
+          "handle": "plain_penny",
+          "age": 29,
+          "country": "Australia",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "McDonald's spicy chicken nuggets 🔥🍗 are actually HOT! Loved them with the new spicy dip.",
+    "likes": 185,
+    "date": "2025-07-06T12:30:00Z",
+    "author": {
+      "handle": "heat_holly",
+      "age": 23,
+      "country": "USA",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Best when fresh out the fryer!",
+        "likes": 4,
+        "date": "2025-07-06T12:55:00Z",
+        "author": {
+          "handle": "dunkin_dylan",
+          "age": 25,
+          "country": "USA",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "The new McDonald's spicy nuggets aren’t as crispy as I hoped 😕",
+    "likes": 33,
+    "date": "2025-07-07T18:10:00Z",
+    "author": {
+      "handle": "crispy_casey",
+      "age": 26,
+      "country": "Germany",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Mine were soggy too! Must be timing.",
+        "likes": 1,
+        "date": "2025-07-07T18:30:00Z",
+        "author": {
+          "handle": "berlin_bob",
+          "age": 30,
+          "country": "Germany",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Spicy Chicken Nuggets by McDonald's are a new late-night favorite 🔥",
+    "likes": 90,
+    "date": "2025-07-08T22:15:00Z",
+    "author": {
+      "handle": "midnight_maya",
+      "age": 24,
+      "country": "UK",
+      "gender": "female"
+    },
+    "comments": [
+      {
+        "content": "Perfect after work cravings!",
+        "likes": 2,
+        "date": "2025-07-08T22:40:00Z",
+        "author": {
+          "handle": "hungry_harry",
+          "age": 28,
+          "country": "UK",
+          "gender": "male"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Why are McDonald's spicy nuggets smaller than the regular ones? 🤔",
+    "likes": 50,
+    "date": "2025-07-09T09:45:00Z",
+    "author": {
+      "handle": "tiny_tim",
+      "age": 29,
+      "country": "Canada",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Noticed that too! Weird.",
+        "likes": 1,
+        "date": "2025-07-09T10:05:00Z",
+        "author": {
+          "handle": "maple_mel",
+          "age": 27,
+          "country": "Canada",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Spicy Chicken Nuggets + sweet & sour dip = unbeatable combo 🔥❤️",
+    "likes": 130,
+    "date": "2025-07-10T14:00:00Z",
+    "author": {
+      "handle": "combo_craig",
+      "age": 32,
+      "country": "USA",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Exactly! That’s my go-to order now.",
+        "likes": 3,
+        "date": "2025-07-10T14:20:00Z",
+        "author": {
+          "handle": "sauce_sarah",
+          "age": 25,
+          "country": "USA",
+          "gender": "female"
+        }
+      }
+    ]
+  }
+]

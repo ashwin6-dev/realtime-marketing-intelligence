@@ -1,5 +1,5 @@
 export interface User {
-    name: string;
+    handle: string;
     age: number;
     country: string;
     gender: string;

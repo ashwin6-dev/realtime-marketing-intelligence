@@ -1,0 +1,194 @@
+[
+  {
+    "content": "Tried KFC’s new Hot & Spicy Boneless 🐔🔥. Super crunchy and legit spicy!",
+    "likes": 140,
+    "date": "2025-07-03T13:20:00Z",
+    "author": {
+      "handle": "crunchy_kevin",
+      "age": 26,
+      "country": "UK",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "My mouth was on fire, but worth it!",
+        "likes": 4,
+        "date": "2025-07-03T13:45:00Z",
+        "author": {
+          "handle": "spicy_sue",
+          "age": 24,
+          "country": "UK",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Burger King’s Fiery Nuggets 🌶️🍗 taste okay but felt dry compared to McD's.",
+    "likes": 60,
+    "date": "2025-07-04T17:10:00Z",
+    "author": {
+      "handle": "taste_tom",
+      "age": 31,
+      "country": "Canada",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Yeah, texture isn’t great.",
+        "likes": 2,
+        "date": "2025-07-04T17:30:00Z",
+        "author": {
+          "handle": "canada_claire",
+          "age": 27,
+          "country": "Canada",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Wendy’s spicy chicken sandwich 🔥🍔 still undefeated for me. Perfect crunch + heat!",
+    "likes": 190,
+    "date": "2025-07-05T12:00:00Z",
+    "author": {
+      "handle": "wendys_will",
+      "age": 28,
+      "country": "USA",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Facts! Always my go-to order.",
+        "likes": 5,
+        "date": "2025-07-05T12:25:00Z",
+        "author": {
+          "handle": "sandwich_sara",
+          "age": 25,
+          "country": "USA",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "KFC’s hot wings combo meal 🔥🍗 still hits the spot. Messy but worth it.",
+    "likes": 110,
+    "date": "2025-07-06T19:00:00Z",
+    "author": {
+      "handle": "winged_walter",
+      "age": 29,
+      "country": "Australia",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Love the crunch, hate the grease 😂",
+        "likes": 3,
+        "date": "2025-07-06T19:25:00Z",
+        "author": {
+          "handle": "greasy_gemma",
+          "age": 24,
+          "country": "Australia",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Burger King’s new ghost pepper nuggets 🌶️👻 — way spicier than McD’s but flavor isn’t great imo.",
+    "likes": 80,
+    "date": "2025-07-07T14:40:00Z",
+    "author": {
+      "handle": "heat_henry",
+      "age": 27,
+      "country": "USA",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Too hot for me lol",
+        "likes": 2,
+        "date": "2025-07-07T15:05:00Z",
+        "author": {
+          "handle": "spice_shy_sophie",
+          "age": 23,
+          "country": "USA",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Wendy’s spicy nuggets still slap 🔥 but portion feels smaller lately.",
+    "likes": 95,
+    "date": "2025-07-08T11:15:00Z",
+    "author": {
+      "handle": "budget_ben",
+      "age": 30,
+      "country": "UK",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Not just you! They shrank 😅",
+        "likes": 1,
+        "date": "2025-07-08T11:35:00Z",
+        "author": {
+          "handle": "shrunk_sienna",
+          "age": 28,
+          "country": "UK",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "KFC’s Hot & Spicy Boneless are 🔥 but felt greasy after a few pieces.",
+    "likes": 70,
+    "date": "2025-07-09T18:30:00Z",
+    "author": {
+      "handle": "fried_felix",
+      "age": 25,
+      "country": "Germany",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Same, loved first bite then got too oily.",
+        "likes": 2,
+        "date": "2025-07-09T18:50:00Z",
+        "author": {
+          "handle": "oil_olivia",
+          "age": 22,
+          "country": "Germany",
+          "gender": "female"
+        }
+      }
+    ]
+  },
+  {
+    "content": "Wendy’s spicy chicken sandwich 🔥❤️ keeps beating every new nugget drop imo.",
+    "likes": 160,
+    "date": "2025-07-10T13:00:00Z",
+    "author": {
+      "handle": "sandwich_stan",
+      "age": 32,
+      "country": "USA",
+      "gender": "male"
+    },
+    "comments": [
+      {
+        "content": "Exactly! Crunch and flavor unmatched.",
+        "likes": 4,
+        "date": "2025-07-10T13:25:00Z",
+        "author": {
+          "handle": "crisp_claire",
+          "age": 26,
+          "country": "USA",
+          "gender": "female"
+        }
+      }
+    ]
+  }
+]
