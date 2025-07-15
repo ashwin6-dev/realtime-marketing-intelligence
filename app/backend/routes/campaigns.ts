@@ -8,7 +8,7 @@ const createCampaignsRouter = (sentimentService: SentimentService) => {
     router.get('/', (req, res) => res.send('Campaigns route'));
 
     router.get('/:campaign/sentiments', async (req, res) => {
-        const result = await sentimentService.analyseSentiment(req.params.campaign);
+        const result = await sentimentService.sentimentInsights(req.params.campaign);
         res.send(result);
     });
 

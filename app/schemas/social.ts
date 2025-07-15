@@ -1,6 +1,6 @@
 import { User } from "./user";
 
-interface Social {
+export interface Social {
     content: string;
     likes: number;
     date: Date;
