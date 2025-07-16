@@ -44,11 +44,11 @@ export default function MarketingDashboard() {
     setLastUpdated(new Date())
   }
 
-  // Auto-update every 5 minutes
+  // Auto-update every 2.5 minutes
   useEffect(() => {
     intervalRef.current = setInterval(() => {
       handleUpdateData()
-    }, 60 * 1000)
+    }, 2.5 * 60 * 1000)
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current)
     }
