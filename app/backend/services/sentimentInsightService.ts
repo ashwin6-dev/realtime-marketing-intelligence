@@ -55,8 +55,11 @@ export class SentimentInsightService {
     getSentimentInsight(posts: AnalysedSocialPost[]) {
         const allAgeGroups: Record<string, number[]> = {};
         const allGenderGroups: Record<string, number[]> = {};
+        const allSentiments: number[] = []; // <-- new
 
         const addToGroup = (author: { age: number; gender: string }, sentiment: number) => {
+            allSentiments.push(sentiment); // <-- add sentiment to overall list
+
             // Age
             const age = author.age;
             let ageGroup = '';
@@ -85,8 +88,7 @@ export class SentimentInsightService {
         }
 
         // Compute averages
-        const average = (arr: number[]) =>
-            arr.reduce((a, b) => a + b, 0) / arr.length;
+        const average = (arr: number[]) => arr.reduce((a, b) => a + b, 0) / arr.length;
 
         const byAge: Record<string, number> = {};
         for (const group in allAgeGroups) {
@@ -98,9 +100,12 @@ export class SentimentInsightService {
             byGender[group] = average(allGenderGroups[group]);
         }
 
+        const overall = allSentiments.length > 0 ? average(allSentiments) : 0;
+
         return {
             byAge,
-            byGender
+            byGender,
+            overall // <-- new: add overall average
         };
     }
 }

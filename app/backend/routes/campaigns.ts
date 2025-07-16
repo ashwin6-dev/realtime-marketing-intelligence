@@ -5,8 +5,6 @@ import { SentimentService } from "../services/sentimentService";
 const createCampaignsRouter = (sentimentService: SentimentService) => {
     const router = Router();
 
-    router.get('/', (req, res) => res.send('Campaigns route'));
-
     router.get('/:campaign/sentiments', async (req, res) => {
         const result = await sentimentService.sentimentInsights(req.params.campaign);
         res.send(result);
