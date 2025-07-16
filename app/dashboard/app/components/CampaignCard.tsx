@@ -10,13 +10,7 @@ export default function CampaignCard({ campaign }) {
     const handleViewDemographics = async () => {
         setLoading(true);
         const slug = campaign.name.toLowerCase().replace(/ /g, "-");
-        try {
-            const res = await fetch(`http://localhost:3000/campaigns/${slug}/sentiments`);
-            const json = await res.json();
-            setDemographics(json.demographics || json.sentimentAnalysis?.demographics || json);
-        } catch {
-            setDemographics(null);
-        }
+        setDemographics(campaign.demographics);
         setShowModal(true);
         setLoading(false);
     };
