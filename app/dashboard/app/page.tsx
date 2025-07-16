@@ -136,7 +136,7 @@ export default function MarketingDashboard() {
             <TabsList className="grid w-full grid-cols-4">
               <TabsTrigger value="overview">Overview</TabsTrigger>
               <TabsTrigger value="trends">Trends</TabsTrigger>
-              <TabsTrigger value="celebrities">Celebrities</TabsTrigger>
+              <TabsTrigger value="celebrities">Promoters</TabsTrigger>
               <TabsTrigger value="ai-action">AI Action Recommendations</TabsTrigger>
             </TabsList>
 

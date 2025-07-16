@@ -17,12 +17,12 @@ const ACTIONS = {
   newCampaigns: {
     label: "New Campaign Ideas",
     icon: <Lightbulb className="w-5 h-5" />,
-    prompt: `You are a marketing strategist AI. Given the following data, recommend brand new creative campaign ideas for our brand. Consider current trends, celebrity fit, and competitor activity. Be specific and concise.`
+    prompt: `You are a marketing strategist AI. Given the following data, recommend brand new creative campaign ideas / products ideas for our brand. Consider current trends, celebrity fit, and competitor activity. Be specific and concise.`
   },
   improvements: {
     label: "Campaign Improvements",
     icon: <TrendingUp className="w-5 h-5" />,
-    prompt: `You are a marketing strategist AI. Given the following data, suggest improvements to our existing campaigns. Focus on actionable, creative, and data-driven recommendations.`
+    prompt: `You are a marketing strategist AI. Given the following data, suggest improvements to our existing campaigns. Consider current trends, celebrity fit, and competitor activity. Be specific and concise. Focus on actionable, creative, and data-driven recommendations.`
   }
 };
 
@@ -41,7 +41,7 @@ Possible Celebrity Collaborations:
 ${JSON.stringify(celebrities)}
 
 Recent Competitor Activity:
-${competitorNotifications.slice(0, 3).map(n => `- ${n.competitor}: ${n.campaign} (${n.type}) - ${n.description}`).join("\n")}
+${competitorNotifications.map(n => `- ${n.competitor}: ${n.campaign} (${n.type}) - ${n.description}`).join("\n")}
 
 Ensure your output is ONLY an array of JSON objects with a title field, an explanation field, a trends field and a demographic field.
 Do NOT wrap your answer in markdown or code block fences. Only return raw JSON text.

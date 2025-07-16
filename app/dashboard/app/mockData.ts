@@ -20,6 +20,31 @@ export const celebrities = [
   },
 ];
 
+export const celebrityScoreOptions = [
+  95, 92, 88, 85, 80, 75, 60, 50, 30, 15, 5
+];
+
+export const celebrityBrandFitOptions = [
+  // Excellent fits
+  "is an excellent fit for McDonald's due to their recent viral Instagram reel featuring a McSpicy Paneer challenge with their family, which garnered over 10M views and trended on Indian social media.",
+  "has become a Gen Z icon after their TikTok duet with a McDonald's mascot went viral, making them a top pick for youth-focused campaigns.",
+  "is a strong fit as they recently hosted a charity event at a McDonald's location, showing authentic community engagement and positive press.",
+  // Good fits
+  "has a positive image and frequently posts about enjoying fast food after cricket matches, resonating with sports fans and casual diners.",
+  "has a wholesome family image, often sharing stories about weekend McDonald's breakfasts with their children, which aligns with the brand's family values.",
+  // Neutral/Moderate fits
+  "has a mixed fit: while they have a large following, their recent posts have focused more on fitness and healthy eating, which may not fully align with McDonald's core offerings.",
+  "is a moderate fit, as their audience is diverse but their engagement with food brands is sporadic and sometimes critical.",
+  // Poor fits
+  "is a controversial choice after their recent tweet criticizing fast food for contributing to childhood obesity, which sparked a heated debate online.",
+  "is not a good fit due to their outspoken support for veganism and their campaign to boycott processed foods, including fast food chains.",
+  "is a poor fit after being involved in a public spat with another celebrity over the ethics of fast food advertising to children.",
+  // Very poor/controversial fits
+  "is a highly controversial pick after their recent documentary exposing labor issues in the fast food industry, which directly targeted McDonald's.",
+  "is not suitable as their latest stand-up comedy special included a viral joke mocking McDonald's menu and customer service, which trended on X (Twitter) for days."
+];
+
+
 // --- Randomizable Options ---
 const sentimentOptions = [65, 72, 81, 89, 74, 68, 79];
 const reachOptions = ["2.4M", "5.1M", "15.2M", "3.8M", "1.2M", "890K", "2.1M", "1.8M"];
@@ -397,4 +422,12 @@ export function randomizeMockData() {
     ...row,
     value: pickRandom([70, 75, 76, 78, 81, 85]),
   }));
+
+  celebrities.forEach((celeb) => {
+    const idx = Math.floor(Math.random() * celebrityScoreOptions.length);
+    celeb.score = celebrityScoreOptions[idx];
+    celeb.brandFit = `${celeb.name} ${celebrityBrandFitOptions[
+      idx % celebrityBrandFitOptions.length
+    ]}`;
+  });
 }
